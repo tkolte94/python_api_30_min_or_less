@@ -10,10 +10,10 @@ app = FastAPI()
 @app.get("/")
 def index():
 	return {'possible routes': {
-								"/test": "use with GET, returns a test string",
-								"/sayhi/{name}": "use with GET, returns hello with your argument",
-								"/": "This message!"
-								}}
+			"/test": "use with GET, returns a test string",
+			"/sayhi/{name}": "use with GET, returns hello with your argument",
+			"/": "This message!"
+	}}
 
 @app.get("/test")
 def test():
