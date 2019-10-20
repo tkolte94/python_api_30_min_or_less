@@ -1,0 +1,35 @@
+Commands:
+
+1. Open your terminal
+	On Mac: just search for terminal in the spotlight
+	On Windows: Use the "putty" application or cmd
+
+2. Make sure you have python 3 installed
+	Type "python3 --version" to make sure you have python installed and check version
+	You can use google to find ways to do this. 
+	On Mac: You can use homebrew - "brew install python3"
+
+4. Make sure pip is installed
+	Type "pip3 --version" to make sure something comes up
+
+5. Create your virtual environment to make sure your installations are only used for this application
+	python3 -m venv example
+
+6. Start using your virtual environment
+	source example/bin/activate
+
+5. Install fast api!
+	pip3 install fastapi[all]
+	If this fails, you may need to run it with sudo --> sudo pip3 install fastapi
+
+6. Make sure it is installed
+	Start the python shell with "python3"
+	Type in "import fastapi"
+	If it works, you're good to go! If not, take a little time to fix the issues that come up with installation. Commands should be provided in the error statement.
+
+7. You're ready to write your code! Check out the exampleapi.py file to see how to structure it.
+
+8. Make sure requests is installed!
+	pip3 install requests
+
+9. Learn more about Fast API at https://fastapi.tiangolo.com/ !
